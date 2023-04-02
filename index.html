@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+        <b>CALCULATOR</b>
+        </div>
+        <div class="box2">
+            <input type="text" name="first operand" id="a" placeholder="first operand">
+                <select  name="operator" id="b">
+                    <option  value="add">+(Add)</option>
+                    <option  value="subtract">-(subtract)</option>
+                    <option  value="multiply">*(multiply)</option>
+                    <option  value="divide">/(divide)</option>
+            
+                </select>
+            <input type="text" name="second operand" id="c" placeholder="second operand">
+        </div>
+        <div class="box3">
+           <button id="d" onclick="addnum();" ><b>Calculate</b></button>
+
+        </div>
+        <div class="box4">   
+           <b>The result is:</b><input type="number" name="result" id="e">
+        </div>
+    </div>
+ 
+    
+</body>
+<script src="index.js"></script>
+</html>

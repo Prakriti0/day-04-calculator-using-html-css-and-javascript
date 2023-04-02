@@ -1,0 +1,71 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+   background-color: skyblue;
+}
+.box{
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 380px;
+    width: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    left:250px;
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 30px;
+    width: 90%;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:50px; 
+  
+}
+.box2 input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+select{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top :150px;
+}
+.box3 input{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:lightgreen
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:200px;
+}
+.box4 input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
